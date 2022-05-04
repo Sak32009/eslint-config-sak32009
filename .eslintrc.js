@@ -52,7 +52,7 @@ module.exports = defineConfig({
       parserOptions: {
         sourceType: 'module',
         project: 'tsconfig.json',
-        tsconfigRootDir: __dirname,
+        // tsconfigRootDir: __dirname,
       },
       plugins: ['@typescript-eslint'],
       extends: [
