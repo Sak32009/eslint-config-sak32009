@@ -700,7 +700,7 @@ __metadata:
     "@typescript-eslint/parser": ^5.27.0
     eslint: ^8.17.0
     eslint-config-prettier: ^8.5.0
-    eslint-define-config: ^1.5.0
+    eslint-define-config: ^1.5.1
     eslint-import-resolver-typescript: ^2.7.1
     eslint-plugin-compat: ^4.0.2
     eslint-plugin-eslint-comments: ^3.2.0
@@ -720,10 +720,10 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"eslint-define-config@npm:^1.5.0":
-  version: 1.5.0
-  resolution: "eslint-define-config@npm:1.5.0"
-  checksum: dfe56a109fba13531d9a327a3108ebbcbb18f2642e2254ebfb768307ef5b703d2bed90259ec48af2db23e3e46b4f1fefa33a8dae1fd6fb3c939ca0d46e4527c8
+"eslint-define-config@npm:^1.5.1":
+  version: 1.5.1
+  resolution: "eslint-define-config@npm:1.5.1"
+  checksum: 3d0d735ae9841e770dcc0b213f7f608039a8beb63a1d072b14ee61f2a3f439947d771809166fd46ff7133e6e83d33dca7ea0f7147419a8cbc635509769bbb7d4
   languageName: node
   linkType: hard
 
