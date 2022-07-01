@@ -706,7 +706,7 @@ __metadata:
     eslint-plugin-eslint-comments: ^3.2.0
     eslint-plugin-import: ^2.26.0
     eslint-plugin-node: ^11.1.0
-    eslint-plugin-prettier: ^4.0.0
+    eslint-plugin-prettier: ^4.2.1
     eslint-plugin-promise: ^6.0.0
     eslint-plugin-regexp: ^1.7.0
     eslint-plugin-sonarjs: ^0.13.0
@@ -714,9 +714,9 @@ __metadata:
     prettier: ^2.6.2
     typescript: ^4.7.3
   peerDependencies:
-    eslint: ^8.14.0
+    eslint: ^8.17.0
     prettier: ^2.6.2
-    typescript: ^4.6.4
+    typescript: ^4.7.3
   languageName: unknown
   linkType: soft
 
@@ -844,9 +844,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-prettier@npm:^4.0.0":
-  version: 4.0.0
-  resolution: "eslint-plugin-prettier@npm:4.0.0"
+"eslint-plugin-prettier@npm:^4.2.1":
+  version: 4.2.1
+  resolution: "eslint-plugin-prettier@npm:4.2.1"
   dependencies:
     prettier-linter-helpers: ^1.0.0
   peerDependencies:
@@ -855,7 +855,7 @@ __metadata:
   peerDependenciesMeta:
     eslint-config-prettier:
       optional: true
-  checksum: 03d69177a3c21fa2229c7e427ce604429f0b20ab7f411e2e824912f572a207c7f5a41fd1f0a95b9b8afe121e291c1b1f1dc1d44c7aad4b0837487f9c19f5210d
+  checksum: b9e839d2334ad8ec7a5589c5cb0f219bded260839a857d7a486997f9870e95106aa59b8756ff3f37202085ebab658de382b0267cae44c3a7f0eb0bcc03a4f6d6
   languageName: node
   linkType: hard
 
@@ -2461,11 +2461,11 @@ __metadata:
 
 "typescript@patch:typescript@^4.7.3#~builtin<compat/typescript>":
   version: 4.7.3
-  resolution: "typescript@patch:typescript@npm%3A4.7.3#~builtin<compat/typescript>::version=4.7.3&hash=bda367"
+  resolution: "typescript@patch:typescript@npm%3A4.7.3#~builtin<compat/typescript>::version=4.7.3&hash=7ad353"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 8257ce7ecbbf9416da60045a76a99d473698ca9e973fa0ddab7137cacb1587255431176cbbcc801a650938c4dc8109ab88355774829a714fabe56a53a2fe4524
+  checksum: 137d18a77f52254a284960b16ab53d0619f57b69b5d585804b8413f798a1175ce3e774fb95e6a101868577aafe357d8fcfc9171f0dc9fc0c210e9ae59d107cc0
   languageName: node
   linkType: hard
 
