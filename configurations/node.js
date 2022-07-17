@@ -1,61 +1,61 @@
 module.exports = {
-  // PLUGIN: node
+  // PLUGIN: n
 
   // require error handling in callbacks
-  // node/handle-callback-err
+  // n/handle-callback-err
   // ensure Node.js-style error-first callback pattern is followed
-  // node/no-callback-literal
+  // n/no-callback-literal
   // disallow new operators with calls to require
-  'node/no-new-require': 2,
+  'n/no-new-require': 2,
   // disallow string concatenation with __dirname and __filename
-  'node/no-path-concat': 2,
+  'n/no-path-concat': 2,
   // disallow the use of process.exit()
-  'node/no-process-exit': 2,
+  'n/no-process-exit': 2,
   // require return statements after callbacks
-  // node/callback-return
+  // n/callback-return
   // enforce either module.exports or exports
-  'node/exports-style': 2,
+  'n/exports-style': 2,
   // enforce the style of file extensions in import declarations
-  // node/file-extension-in-import
+  // n/file-extension-in-import
   // require require() calls to be placed at top-level module scope
-  'node/global-require': 2,
+  'n/global-require': 2,
   // disallow require calls to be mixed with regular variable declarations
-  // node/no-mixed-requires
+  // n/no-mixed-requires
   // disallow the use of process.env
-  // node/no-process-env
+  // n/no-process-env
   // disallow specified modules when loaded by import declarations
-  // node/no-restricted-import
+  // n/no-restricted-import
   // disallow specified modules when loaded by require
-  // node/no-restricted-require
+  // n/no-restricted-require
   // disallow synchronous methods
-  'node/no-sync': 2,
+  'n/no-sync': 2,
   // enforce either Buffer or require("buffer").Buffer
-  'node/prefer-global/buffer': 2,
+  'n/prefer-global/buffer': 2,
   // enforce either console or require("console")
-  // node/prefer-global/console
+  // n/prefer-global/console
   // enforce either process or require("process")
-  'node/prefer-global/process': 2,
+  'n/prefer-global/process': 2,
   // enforce either TextDecoder or require("util").TextDecoder
-  // node/prefer-global/text-decoder
+  // n/prefer-global/text-decoder
   // enforce either TextEncoder or require("util").TextEncoder
-  // node/prefer-global/text-encoder
+  // n/prefer-global/text-encoder
   // enforce either URLSearchParams or require("url").URLSearchParams
-  // node/prefer-global/url-search-params
+  // n/prefer-global/url-search-params
   // enforce either URL or require("url").URL
-  // node/prefer-global/url
+  // n/prefer-global/url
   // enforce require("dns").promises
-  // node/prefer-promises/dns
-  'node/prefer-promises/fs': 2,
+  // n/prefer-promises/dns
+  'n/prefer-promises/fs': 2,
 
-  // PLUGIN: node/recommended
+  // PLUGIN: n/recommended
   // disallow unsupported ECMAScript syntax on the specified version
-  'node/no-unsupported-features/es-syntax': [2, { ignores: ['modules', 'dynamicImport'] }],
+  'n/no-unsupported-features/es-syntax': [2, { ignores: ['modules', 'dynamicImport'] }],
 
   // disallow import declarations which import private modules
-  'node/no-unpublished-import': 0,
+  'n/no-unpublished-import': 0,
   // disallow require() expressions which import private modules
-  'node/no-unpublished-require': 0,
+  'n/no-unpublished-require': 0,
 
   // because of eslint import plugin
-  'node/no-missing-import': 0,
+  'n/no-missing-import': 0,
 };

@@ -15,10 +15,10 @@ module.exports = defineConfig({
     es2022: true,
     jquery: true,
   },
-  plugins: ['node', 'import', 'unicorn', 'eslint-comments', 'sonarjs', 'compat', 'promise', 'regexp', 'prettier'],
+  plugins: ['n', 'import', 'unicorn', 'eslint-comments', 'sonarjs', 'compat', 'promise', 'regexp', 'prettier'],
   extends: [
     'eslint:recommended',
-    'plugin:node/recommended-script',
+    'plugin:n/recommended-script',
     'plugin:import/recommended',
     'plugin:import/electron',
     'plugin:unicorn/recommended',
@@ -56,7 +56,7 @@ module.exports = defineConfig({
       },
       plugins: ['@typescript-eslint'],
       extends: [
-        'plugin:node/recommended-module',
+        'plugin:n/recommended-module',
         'plugin:import/typescript',
         'plugin:@typescript-eslint/recommended',
         'plugin:@typescript-eslint/recommended-requiring-type-checking',
